@@ -1,0 +1,35 @@
+.picture {
+    /*
+    Lay the picture containers out one after the other. (To see why
+    this line is important, try changing it to 'block' or 'inline'.)
+    */
+    display: inline-block;
+
+    /* add a little space between each picture and the next */
+    margin: 10px;
+}
+
+.gallery img {
+    /*
+    The original images are all different sizes but we need
+    them to be consistent for the gallery layout to look good.
+    */
+    height: 400px;
+
+    /* add an outline around each picture */
+    border: 15px groove #4f68b0;
+}
+
+.gallery p {
+    text-align: center;
+    margin-top: 0;
+}
+p{
+    color:white;}
+body{
+    text-align:center;
+    background:url(https://studioghiblimovies.com/wp-content/uploads/2015/01/24-mUOUz2Y.jpg);
+    color:darkblue;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
